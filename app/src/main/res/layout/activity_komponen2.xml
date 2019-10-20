@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dua"
+    tools:context=".Komponen2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="124dp"
+        android:layout_height="35dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/layanan"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="338dp"
+        android:layout_height="358dp"
+        android:fontFamily="casual"
+        android:text="@string/layanan_adalah_titik_masuk_serbaguna_untuk_menjaga_aplikasi_tetap_berjalan_di_latar_belakang_bagi_semua_jenis_alasan_ini_adalah_komponen_yang_berjalan_di_latar_belakang_untuk_melakukan_operasi_yang_berjalan_lama_atau_untuk_melakukan_pekerjaan_bagi_proses_jarak_jauh_layanan_tidak_menyediakan_antarmuka_pengguna_misalnya_sebuah_layanan_bisa_memutar_musik_di_latar_belakang_sementara_pengguna_berada_dalam_aplikasi_lain_atau_layanan_bisa_menarik_data_lewat_jaringan_tanpa_memblokir_interaksi_pengguna_dengan_aktivitas_komponen_lain_seperti_aktivitas_bisa_memulai_layanan_dan_membiarkannya_berjalan_atau_mengikat_layanan_untuk_berinteraksi_dengannya_sebenarnya_ada_dua_layanan_semantik_berbeda_yang_memberi_tahu_sistem_tentang_cara_mengelola_aplikasi_layanan_yang_dimulai_memberi_tahu_sistem_agar_tetap_berjalan_hingga_pekerjaannya_selesai_hal_ini_bisa_jadi_untuk_menyinkronkan_beberapa_data_di_latar_belakang_atau_memutar_musik_meskipun_setelah_pengguna_meninggalkan_aplikasi_tersebut"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo2"
+        android:onClick="Back2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+        tools:ignore="VectorDrawableCompat" />/>
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="128dp"
+        android:layout_height="54dp"
+        android:contentDescription="@string/todosintaxlayanan"
+        android:onClick="ClickSintaxLayanan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936"
+        app:srcCompat="@drawable/sintax" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="125dp"
+        android:layout_height="54dp"
+        android:contentDescription="@string/todolinklayanan"
+        android:onClick="ClickLinkLayanan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.832"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"
+        app:srcCompat="@drawable/link" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

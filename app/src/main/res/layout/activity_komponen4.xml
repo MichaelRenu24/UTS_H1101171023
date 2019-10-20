@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/empat"
+    tools:context=".komponen4">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/penyedia_materi"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="286dp"
+        android:layout_height="371dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/penyedia_materi_mengelola_set_data_aplikasi_secara_bersama_sama_yang_dapat_anda_simpan_di_sistem_file_di_database_sqlite_di_web_atau_di_lokasi_penyimpanan_persisten_lain_yang_dapat_diakses_aplikasi_anda_melalui_penyedia_materi_aplikasi_lain_bisa_melakukan_kueri_atau_memodifikasi_data_jika_penyedia_materi_mengizinkannya_misalnya_sistem_android_menyediakan_penyedia_materi_yang_mengelola_informasi_kontak_pengguna_karenanya_setiap_aplikasi_dengan_izin_yang_sesuai_bisa_melakukan_kueri_mengenai_bagian_dari_penyedia_materi_seperti_contactscontract_data_untuk_membaca_dan_menulis_informasi_tentang_orang_tertentu_aplikasi_ini_membujuk_agar_memikirkan_penyedia_konten_sebagai_abstraksi_di_database_karena_terdapat_banyak_api_dan_dukungan_dibuat_untuk_kasus_umum_tersebut_namun_demikian_penyedia_konten_memiliki_beragam_tujuan_inti_untuk_perspektif_desain_sistem_bagi_sistem_penyedia_konten_adalah_titik_masuk_ke_dalam_suatu_aplikasi_untuk_memublikasikan_item_data_bernama_yang_diidentifikasi_oleh_skema_uri"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo4"
+        android:onClick="Back4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+        tools:ignore="VectorDrawableCompat" />/>
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="128dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/todomaterisintax"
+        android:onClick="ClickMateriSintax"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@drawable/sintax" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="125dp"
+        android:layout_height="56dp"
+        android:contentDescription="@string/todomaterilink"
+        android:onClick="ClickMateriLink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948"
+        app:srcCompat="@drawable/link" />
+</androidx.constraintlayout.widget.ConstraintLayout>

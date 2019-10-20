@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/satu"
+    tools:context=".Komponen1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="149dp"
+        android:layout_height="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/activity"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="307dp"
+        android:layout_height="360dp"
+        android:fontFamily="casual"
+        android:text="@string/aktivitas_adalah_titik_masuk_untuk_berinteraksi_dengan_pengguna_ini_mewakili_satu_layar_dengan_antarmuka_pengguna_misalnya_aplikasi_email_mungkin_memiliki_satu_aktivitas_yang_menampilkan_daftar_email_baru_aktivitas_lain_untuk_menulis_email_dan_aktivitas_satunya_lagi_untuk_membaca_email_walaupun_semua_aktivitas_bekerja_sama_untuk_membentuk_pengalaman_pengguna_yang_kohesif_dalam_aplikasi_email_masing_masing_tidak_saling_bergantung_karenanya_aplikasi_berbeda_bisa_memulai_salah_satu_aktivitas_ini_jika_aplikasi_email_mengizinkannya_misalnya_aplikasi_kamera_bisa_memulai_aktivitas_dalam_aplikasi_email_yang_membuat_email_baru_agar_pengguna_bisa_berbagi_gambar"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo1"
+        android:onClick="Back1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="126dp"
+        android:layout_height="56dp"
+        android:contentDescription="@string/todosintaxactivity"
+        android:onClick="ClickSintaxActivty"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+        app:srcCompat="@drawable/sintax" />
+
+    <ImageButton
+        android:id="@+id/linkactiviti"
+        android:layout_width="125dp"
+        android:layout_height="54dp"
+        android:contentDescription="@string/todolinkactivity"
+        android:onClick="ClickLinkActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919"
+        app:srcCompat="@drawable/link" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
